@@ -4,7 +4,7 @@ public class MessageJSON implements Message{
 
 	@Override
 	public String showMessage(String msg) {
-		return "<HTML><BODY><H1>" + msg + "</H1></BODY></HTML>";
+		return "{message:{content:'" + msg + "'}}";
 	}
 
 }

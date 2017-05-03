@@ -25,4 +25,12 @@ public class SingletonDatabase {
 		
 		return singletonDatabase;	
 	}
+
+	public Connection getCon() {
+		return con;
+	}
+
+	public void setCon(Connection con) {
+		this.con = con;
+	}
 }

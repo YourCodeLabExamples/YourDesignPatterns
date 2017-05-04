@@ -21,3 +21,18 @@ Os design patterns são classificados em três categorias:
 - Estruturais: são padrões que utilizam classes e objetos para criar estruturas complexas.
 - Comportamentais: relacionados a algoritmos e diretivas de responsabilidades entre os componentes.
 
+# 1. Singleton
+
+Descrição: Padrão recomendado para situações em que apenas uma instancia de um determinado componente pode ser utilizada pelo sistema. Ex: Gerenciador de conexões de BD, serviço de mensageria, etc.
+
+Resultados esperados: Instanciação de apenas um objeto, garantindo a economia do uso de recursos e acesso concorrente entre os componentes consumidores.
+
+Solução: criação de uma classe com constructor privado e método de obtenção de instância único para iniciação do objeto único.
+
+# 2. Factory Method
+
+Descrição: Padrão utilizado quando uma classe pai ou interface possui diversas classes filhas e a aplicação precisa selecionar o tipo de subclasse a ser instanciada de forma dinâmica.
+
+Resultados esperados: Flexibilidade na instanciação de subclasses conforme o escopo da solução.
+
+Solução: criação de uma classe com constructor privado e método de obtenção de instância único para iniciação do objeto único.

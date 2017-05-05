@@ -29,6 +29,8 @@ Resultados esperados: Instanciação de apenas um objeto, garantindo a economia 
 
 Solução: criação de uma classe com constructor privado e método de obtenção de instância único para iniciação do objeto único.
 
+https://github.com/YourCodeLabExamples/YourDesignPatterns/blob/master/singleton.png
+
 # 2. Factory Method
 
 Descrição: Padrão utilizado quando uma classe pai ou interface possui diversas classes filhas e a aplicação precisa selecionar o tipo de subclasse a ser instanciada de forma dinâmica.
@@ -36,3 +38,5 @@ Descrição: Padrão utilizado quando uma classe pai ou interface possui diversa
 Resultados esperados: Flexibilidade na instanciação de subclasses conforme o escopo da solução.
 
 Solução: criação de uma classe com constructor privado e método de obtenção de instância único para iniciação do objeto único.
+
+https://github.com/YourCodeLabExamples/YourDesignPatterns/blob/master/factory.png
